@@ -1,0 +1,14 @@
+{
+  "name": "luminary",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "apps/mobile",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "make dev",
+    "test": "make test"
+  }
+}
